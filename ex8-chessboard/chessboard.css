@@ -1,0 +1,27 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-gap: 1px;
+  width: 103px;
+  height: 103px;
+}
+
+/* TODO #1: Complete the CSS implementation */
+/* create an 8x8 grid of checkerboard squares */
+.white {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+.black {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+}
+
+.white:hover, .black:hover{
+  background-color: red;
+}
+
+
+
