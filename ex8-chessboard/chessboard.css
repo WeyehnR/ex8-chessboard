@@ -2,26 +2,32 @@
   display: grid;
   grid-template-columns: repeat(8, auto);
   grid-gap: 1px;
-  width: 103px;
-  height: 103px;
+  width: 203px;
+  height: 203px;
 }
 
 /* TODO #1: Complete the CSS implementation */
 /* create an 8x8 grid of checkerboard squares */
 .white {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
   background-color: white;
 }
 .black {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
   background-color: black;
 }
 
 .white:hover, .black:hover{
   background-color: red;
 }
+
+.enlarged-text {
+  font-size: 35px; 
+}
+
+
 
 
 
